@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin: 0 0 0 20px;
+}
+
+.container .mainTitle{
+    color : #336598;
+}
+
+.quotes li span{
+    font-weight: bold;
+}
+.container button, .quote-of-the-day button, .search button{
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    background-color: #D1DFED;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search input{
+    border: none;
+    height: 30px;
+    background-color:#F8F8F8;
+    border-bottom: 1px solid grey;
+}
+
+.search input:focus{
+    border: none;
+    background:#dbedff;
+}
+
+.container button:hover{
+    background-color: #96c1ec;
+}
+
+.quotes, .author{
+    text-align: left;
+    color: #323332;
+}
+
+.author Link{
+    text-decoration: none;
+    color: #323332;
+}
+
+.quotes{
+    padding-left: 40px;
+}
+
+.quotes li, .author li{
+    left: 50px;
+}
+
+.errorDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18%;
+
+}
+
+.errorDiv h1{
+    font-size:xxx-large;
+    
+}
+
+.quotes-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.quote-box{
+    margin-top: 10px;
+    padding: 10px 5px;
+    border: 1px solid red;
+}
+
+.quote-box .author-name{
+    float: right;
+    margin-right: 10px;   
+    background-color: #323332; 
+    color: white;
+    padding: 2px 10px;
+    border-radius: 50px;
+    font-style: italic;
+    font-size: small;
+}
+
